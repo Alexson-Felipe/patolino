@@ -18,6 +18,7 @@ public class Farmaceutico extends PessoaFisica {
         this.promocaoDia = gerarPromocaoDia();
     }
 
+    
     private String gerarPromocaoDia() {
         List<String> lista = new ArrayList<>();
         lista.add("Dramin");
